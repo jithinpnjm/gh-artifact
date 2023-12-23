@@ -39,5 +39,7 @@ jobs:
       - name: download artifact
         uses: actions/download-artifact@v3
       - name: verify 
-        run: ls 
+        run: ls
+      - name: verify files
+        run: ls -ltr dist-files   
 
