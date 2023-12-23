@@ -41,5 +41,5 @@ jobs:
       - name: verify 
         run: ls
       - name: verify file
-        run: ls -ltr dist-files   
+        run: ls -ltr dist-file  
 
